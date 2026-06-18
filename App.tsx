@@ -1,14 +1,27 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 
-import { WelcomeText } from '@/components/WelcomeText';
+import { AuthControls } from '@/components/auth/AuthControls';
+import { ClerkSetupPrompt } from '@/components/ClerkSetupPrompt';
+import { hasClerkPublishableKey } from '@/config/clerk';
+import { AppClerkProvider } from '@/providers/AppClerkProvider';
+
+function AppContent() {
+  if (!hasClerkPublishableKey()) {
+    return <ClerkSetupPrompt />;
+  }
+
+  return <AuthControls />;
+}
 
 export default function App() {
   return (
-    <View style={styles.container} testID="app-root">
-      <WelcomeText />
-      <StatusBar style="auto" />
-    </View>
+    <AppClerkProvider>
+      <View style={styles.container} testID="app-root">
+        <AppContent />
+        <StatusBar style="auto" />
+      </View>
+    </AppClerkProvider>
   );
 }
 

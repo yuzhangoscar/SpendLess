@@ -17,6 +17,18 @@ npm start
 
 Then press `i` for iOS simulator, `a` for Android emulator, or scan the QR code with Expo Go.
 
+## Authentication (Clerk)
+
+This app uses [Clerk](https://clerk.com) for sign-in and sign-up. Linked application: `app_3FIJMsNsc0VafppFP1YTznfVEpB`.
+
+1. Install the Clerk CLI: `brew install clerk/stable/clerk` or `npm install -g clerk`
+2. Sign in: `clerk auth login`
+3. Link this project: `clerk init --app app_3FIJMsNsc0VafppFP1YTznfVEpB`
+4. Pull env vars: `clerk env pull` (or copy `.env.example` to `.env` and add your Publishable Key)
+5. Start the app: `npm start`
+
+See the [Expo quickstart](https://clerk.com/docs/expo/getting-started/quickstart) for more details.
+
 ## Scripts
 
 | Command                | Description                        |

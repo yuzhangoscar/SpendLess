@@ -1,10 +1,13 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Spend Less app', () => {
-  test('shows the welcome screen', async ({ page }) => {
+  test('shows the auth or setup screen', async ({ page }) => {
     await page.goto('/');
 
-    await expect(page.getByTestId('welcome-text')).toBeVisible();
-    await expect(page.getByTestId('welcome-text')).toContainText('Welcome to Spend Less');
+    const setupPrompt = page.getByTestId('clerk-setup-prompt');
+    const authScreen = page.getByTestId('auth-screen');
+    const signedInScreen = page.getByTestId('signed-in-screen');
+
+    await expect(setupPrompt.or(authScreen).or(signedInScreen)).toBeVisible();
   });
 });
