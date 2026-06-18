@@ -2,6 +2,68 @@
 
 Cross-platform mobile app for iOS and Android, built with [Expo](https://expo.dev) and React Native.
 
+## Tech stack
+
+Versions match [`package.json`](./package.json).
+
+### Production dependencies
+
+<p align="center">
+  <a href="https://expo.dev" title="expo"><img src="https://img.shields.io/badge/expo-56.0.12-000020?style=for-the-badge&logo=expo&logoColor=white" alt="expo 56.0.12" /></a>
+  <a href="https://reactnative.dev" title="react-native"><img src="https://img.shields.io/badge/react--native-0.85.3-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react-native 0.85.3" /></a>
+  <a href="https://react.dev" title="react"><img src="https://img.shields.io/badge/react-19.2.3-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react 19.2.3" /></a>
+  <a href="https://react.dev" title="react-dom"><img src="https://img.shields.io/badge/react--dom-19.2.3-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react-dom 19.2.3" /></a>
+  <a href="https://github.com/necolas/react-native-web" title="react-native-web"><img src="https://img.shields.io/badge/react--native--web-0.21.2-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="react-native-web 0.21.2" /></a>
+  <a href="https://clerk.com/docs/expo/getting-started/quickstart" title="@clerk/expo"><img src="https://img.shields.io/badge/%40clerk%2Fexpo-3.4.4-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" alt="@clerk/expo 3.4.4" /></a>
+</p>
+
+<p align="center">
+  <a href="https://docs.expo.dev/versions/latest/sdk/securestore/" title="expo-secure-store"><img src="https://img.shields.io/badge/expo--secure--store-56.0.4-000020?style=for-the-badge&logo=expo&logoColor=white" alt="expo-secure-store 56.0.4" /></a>
+  <a href="https://docs.expo.dev/versions/latest/sdk/status-bar/" title="expo-status-bar"><img src="https://img.shields.io/badge/expo--status--bar-56.0.4-000020?style=for-the-badge&logo=expo&logoColor=white" alt="expo-status-bar 56.0.4" /></a>
+  <a href="https://www.npmjs.com/package/babel-preset-expo" title="babel-preset-expo"><img src="https://img.shields.io/badge/babel--preset--expo-56.0.0-F9DC3E?style=for-the-badge&logo=babel&logoColor=black" alt="babel-preset-expo 56.0.0" /></a>
+</p>
+
+### Dev dependencies
+
+<p align="center">
+  <a href="https://www.typescriptlang.org" title="typescript"><img src="https://img.shields.io/badge/typescript-6.0.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript 6.0.3" /></a>
+  <a href="https://jestjs.io" title="jest"><img src="https://img.shields.io/badge/jest-29.7.0-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="jest 29.7.0" /></a>
+  <a href="https://www.npmjs.com/package/jest-expo" title="jest-expo"><img src="https://img.shields.io/badge/jest--expo-56.0.5-000020?style=for-the-badge&logo=expo&logoColor=white" alt="jest-expo 56.0.5" /></a>
+  <a href="https://callstack.github.io/react-native-testing-library/" title="@testing-library/react-native"><img src="https://img.shields.io/badge/%40testing--library%2Freact--native-13.3.3-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white" alt="@testing-library/react-native 13.3.3" /></a>
+  <a href="https://playwright.dev" title="@playwright/test"><img src="https://img.shields.io/badge/%40playwright%2Ftest-1.61.0-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="@playwright/test 1.61.0" /></a>
+  <a href="https://www.npmjs.com/package/react-test-renderer" title="react-test-renderer"><img src="https://img.shields.io/badge/react--test--renderer-19.2.3-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react-test-renderer 19.2.3" /></a>
+</p>
+
+<p align="center">
+  <a href="https://eslint.org" title="eslint"><img src="https://img.shields.io/badge/eslint-9.39.4-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="eslint 9.39.4" /></a>
+  <a href="https://www.npmjs.com/package/eslint-config-expo" title="eslint-config-expo"><img src="https://img.shields.io/badge/eslint--config--expo-56.0.4-000020?style=for-the-badge&logo=expo&logoColor=white" alt="eslint-config-expo 56.0.4" /></a>
+  <a href="https://github.com/prettier/eslint-config-prettier" title="eslint-config-prettier"><img src="https://img.shields.io/badge/eslint--config--prettier-10.1.8-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="eslint-config-prettier 10.1.8" /></a>
+  <a href="https://github.com/prettier/eslint-plugin-prettier" title="eslint-plugin-prettier"><img src="https://img.shields.io/badge/eslint--plugin--prettier-5.5.6-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="eslint-plugin-prettier 5.5.6" /></a>
+  <a href="https://prettier.io" title="prettier"><img src="https://img.shields.io/badge/prettier-3.8.4-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="prettier 3.8.4" /></a>
+</p>
+
+<p align="center">
+  <a href="https://typicode.github.io/husky/" title="husky"><img src="https://img.shields.io/badge/husky-9.1.7-000000?style=for-the-badge&logo=husky&logoColor=white" alt="husky 9.1.7" /></a>
+  <a href="https://github.com/okonet/lint-staged" title="lint-staged"><img src="https://img.shields.io/badge/lint--staged-16.4.0-000000?style=for-the-badge&logo=lintstaged&logoColor=white" alt="lint-staged 16.4.0" /></a>
+  <a href="https://commitlint.js.org" title="@commitlint/cli"><img src="https://img.shields.io/badge/%40commitlint%2Fcli-20.5.3-000000?style=for-the-badge&logo=commitlint&logoColor=white" alt="@commitlint/cli 20.5.3" /></a>
+  <a href="https://commitlint.js.org" title="@commitlint/config-conventional"><img src="https://img.shields.io/badge/%40commitlint%2Fconfig--conventional-20.5.3-000000?style=for-the-badge&logo=commitlint&logoColor=white" alt="@commitlint/config-conventional 20.5.3" /></a>
+  <a href="https://babeljs.io" title="babel-plugin-module-resolver"><img src="https://img.shields.io/badge/babel--plugin--module--resolver-5.0.3-F9DC3E?style=for-the-badge&logo=babel&logoColor=black" alt="babel-plugin-module-resolver 5.0.3" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@types/jest" title="@types/jest"><img src="https://img.shields.io/badge/%40types%2Fjest-30.0.0-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="@types/jest 30.0.0" /></a>
+  <a href="https://www.npmjs.com/package/@types/react" title="@types/react"><img src="https://img.shields.io/badge/%40types%2Freact-19.2.2-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="@types/react 19.2.2" /></a>
+</p>
+
+### Tooling & CI
+
+<p align="center">
+  <a href="https://nodejs.org" title="Node.js"><img src="https://img.shields.io/badge/node-%3E%3D22.11.0-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="node >=22.11.0" /></a>
+  <a href="https://www.npmjs.com" title="npm"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a>
+  <a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" /></a>
+  <a href="https://clerk.com/docs/cli" title="Clerk CLI"><img src="https://img.shields.io/badge/Clerk_CLI-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" alt="Clerk CLI" /></a>
+</p>
+
 ## Prerequisites
 
 - Node.js 22.13+ (recommended for React Native 0.85)
